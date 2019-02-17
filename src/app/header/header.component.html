@@ -7,6 +7,29 @@
         <li><a href="#" (click)="onSelect('shopping-list')">Shopping List</a></li>
       </ul>
     </div>
-    <div class="right-nav">Right Header</div>
+    <div class="right-nav">
+      <ul>
+        <li appDropdown class="has-dropdown">
+          <a href="#">DropDown-1 <i class="fas fa-caret-down"></i></a>
+          <ul class="sub-dropdown">
+            <li><a href="#">Sub Link 1</a></li>
+            <li><a href="#">Sub Link 2</a></li>
+            <li><a href="#">Sub Link 3</a></li>
+            <li><a href="#">Sub Link 4</a></li>
+            <li><a href="#">Sub Link 5</a></li>
+          </ul>
+        </li>
+        <li appDropdown class="has-dropdown">
+            <a href="#">DropDown-2 <i class="fas fa-caret-down"></i></a>
+            <ul class="sub-dropdown">
+              <li><a href="#">Sub Link 1</a></li>
+              <li><a href="#">Sub Link 2</a></li>
+              <li><a href="#">Sub Link 3</a></li>
+              <li><a href="#">Sub Link 4</a></li>
+              <li><a href="#">Sub Link 5</a></li>
+            </ul>
+          </li>
+      </ul>
+    </div>
   </div>
 </header>
